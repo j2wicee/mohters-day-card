@@ -124,3 +124,45 @@ li {
   left: 50%;
   transform: translateX(-50%) rotate(1deg);
 }
+@media (max-width: 600px) {
+  body {
+    padding-top: 60px;
+  }
+
+  #main-container {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  #envelope {
+    transform: scale(0.9);
+    width: 90vw;
+    height: auto;
+  }
+
+  #card {
+    width: 95%;
+    padding: 16px;
+    font-size: 14px;
+  }
+
+  .signature-card {
+    max-width: 90px;
+    max-height: 50px;
+    padding: 4px;
+  }
+
+  .signature-card.left {
+    left: -70px;
+    top: 40%;
+  }
+
+  .signature-card.right {
+    right: -70px;
+    top: 40%;
+  }
+
+  .signature-card.bottom {
+    bottom: -30px;
+  }
+}
